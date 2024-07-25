@@ -1,0 +1,216 @@
+header {
+    background-color: whitesmoke;
+width: 100%;
+    position: fixed;
+    margin-top: -10px;
+   
+}
+nav {
+    width: 80%;
+    margin: auto;
+
+}
+.side {
+    width: 8%;
+    display: inline-block;
+    float: left;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+.call {
+    width: 10%;
+    display: inline-block;
+    float: right;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.logo {
+    width: 30%;
+    display: inline-block;
+   margin-left: 250px;
+   cursor: pointer;
+
+}
+.logo:hover {
+    transform: scale(1.05);
+}
+.banner {
+border-radius: 20px;
+    width: 100%;
+}
+.banner:hover {
+    cursor: pointer;
+
+}
+.carpool {
+    margin-top: 40px;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    width: 400px;
+}
+.carpool:hover {
+    transform: scale(1.05);
+    box-shadow: 25px 25px 25px black ;
+    cursor: pointer;
+}
+#select {
+font-size: 36px;
+width: 80%;
+margin-bottom: 30px;
+}
+.sel {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 60px;
+}
+.find {
+    font-size: 36px;
+width: 50%;
+margin-bottom: 30px; 
+font-weight: bold;
+background-color: green;
+color: white;
+border-radius: 20px;
+margin-left: 30px;
+
+
+}
+.find:hover {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 25px 30px 25px black;
+}
+.rider {
+    width: 100%;
+    border-bottom: 2px solid;
+    
+}
+.riderimg {
+    width: 6%;
+    border-radius: 40%;
+    margin-left: 20px;
+    border: 2px solid;
+}
+.riderimg:hover {
+    transform: scale(1.05);
+    box-shadow: 15px 15px 25px black;
+    cursor: pointer;
+    display: inline-block;
+}
+.ride1 {
+    display: inline-block;
+    position: absolute;
+    top: 25px;
+    left: 120px;
+}
+.time {
+    display: inline-block;
+    position: absolute;
+    top: 65px;
+    left: 130px;  
+font-weight: bolder;
+color: rgba(0, 0, 0, 0.562);
+}
+.ride2 {
+    display: inline-block;
+    position: absolute;
+    top:210px;
+    left: 130px;
+}
+.time2 {
+    display: inline-block;
+position: relative;
+    top: -50px;
+    left: 20px;  
+font-weight: bolder;
+color: rgba(0, 0, 0, 0.562);
+}
+.min {
+   text-align: center;
+   margin-top: 250px;
+   font-size: 70px;
+   font-weight: bolder;
+}
+.picks {
+    font-size: 36px;
+    width: 50%;
+    margin-bottom: 30px; 
+    font-weight: bold;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    margin-left: 30px;
+}
+.picks:hover {
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.05);
+    box-shadow: 25px 30px 25px black;
+}
+.form {
+    width: 450px;
+    border: 2px solid;
+    height: 500px;
+    font-size: 36px;
+    padding: 30px;
+    margin: auto ;
+}
+#name {
+    width: 300px;
+}
+#Email {
+    width: 300px;
+
+    }
+    #feedback  {
+        width: 300px;
+    }
+    .sumbit{
+        font-size: 36px;
+        width: 90%;
+        margin-bottom: 30px; 
+        font-weight: bold;
+        background-color: red;
+        color: white;
+        border-radius: 20px;
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+    .sumbit:hover {
+        background-color: blue;
+        color: white;
+        cursor: pointer;
+        transform: scale(1.05);
+        box-shadow: 25px 30px 25px black;
+    }
+    .thank {
+        text-align: center;
+        font-size: 59px;
+        font-family: cursive;
+        color: white;
+        margin-top: 300px;
+    }
+    .back {
+        font-size: 36px;
+        width: 70%;
+        margin-bottom: 30px; 
+        font-weight: bold;
+        background-color: red;
+        color: white;
+        border-radius: 20px;
+        margin-left: 10px;
+        margin-top: 50px;
+    }
+    .back:hover {
+        background-color: blue;
+        color: white;
+        cursor: pointer;
+        transform: scale(1.05);
+        box-shadow: 25px 30px 25px black;
+    }
